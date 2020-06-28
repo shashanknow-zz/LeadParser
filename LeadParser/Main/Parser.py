@@ -64,8 +64,10 @@ def is_seller(soup):
 		for font_tags_text in font_tags.contents:
 			if 'interested' in font_tags_text:
 				sub_head = font_tags_text
-
+	
+	#List to store all comparison checks of keywords in sub-head
 	sell_check = []
+	#Keywords that may indicate if the person wants to sell
 	key_words = ['sell', 'selling', 'Sell', 'Selling']
 
 	for keys in key_words:
