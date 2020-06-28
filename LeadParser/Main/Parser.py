@@ -85,7 +85,7 @@ data['leads'] = []
 #Loop through all HTML files in the Data folder and retreive data
 for html_file in os.listdir(data_path):
 
-		html_doc = codecs.open(data_path+"\\"+html_file)
+		html_doc = codecs.open(data_path+"/"+html_file)
 		#soup will get a BeautifulSoup object with our HTML file data
 		soup = BeautifulSoup(html_doc, 'html.parser')
 
