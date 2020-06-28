@@ -26,7 +26,7 @@ def get_email(soup):
 #Scans the HTML document and retrieves the Lead Phone
 def get_phone(soup):
 	#Retrieve tag with regex 'tel:+' in href attribute
-	contact_tag = soup.find(href=re.compile('tel:+'))
+	contact_tag = soup.find(href=re.compile('tel:'))
 	return contact_tag.contents[0]
 
 #Scans the HTML document and retrieves the no of Beds
