@@ -76,7 +76,7 @@ def is_seller(soup):
 	return(any(sell_check))
 
 #This is the path to our HTML data
-data_path = (os.path.dirname(os.getcwd()) + '\\Data')
+data_path = (os.path.dirname(os.getcwd()) + '/Data')
 
 #this will contain all leads data
 data = {}
@@ -116,7 +116,7 @@ for html_file in os.listdir(data_path):
 			})
 
 #Path containing our output.json file
-output_path = os.path.dirname(os.getcwd()) + '\\Output' + '\\'
+output_path = os.path.dirname(os.getcwd()) + '/Output' + '/'
 
 #Dump all data into json file
 with open(output_path +'output.json', 'w') as outfile:
