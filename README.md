@@ -19,6 +19,7 @@ To run Test:
 1. Change dir to 'Test
 2. Correct.json refers to the expected output based on default contents of 'Data' folder.
 3. run python file named 'TestCase.py'
+NOTE: Make sure to run Parser.py before you run TestCase.py as output.json cannot be blank for this test. 
 
 CITATIONS:
 1. https://www.crummy.com/software/BeautifulSoup/bs4/doc/
