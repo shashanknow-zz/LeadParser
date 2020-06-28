@@ -18,4 +18,6 @@ How To Run:
 CITATIONS:
 1. https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 
+NOTE: DO NOT DELETE 'output.json' file. It get's overwritten based on contents of the data folder everytime the parser is run.
+
  
