@@ -1,0 +1,22 @@
+{
+  "leads": [
+    {
+      "name": "Test Lead",
+      "email": "testlead@gmail.com",
+      "phone": "111-222-3333",
+      "beds": "3",
+      "baths": "2",
+      "address": "43824 W Sagebrush Trl, Maricopa, AZ 85138",
+      "type": "Buyer"
+    },
+    {
+      "name": "Shashank",
+      "email": "shashank.ubk@gmail.com",
+      "phone": "9974628839",
+      "beds": "3",
+      "baths": "3",
+      "address": "43824 W Sagebrush Trl, Maricopa, AZ 85138",
+      "type": "Seller"
+    }
+  ]
+}
