@@ -7,6 +7,7 @@ PACKAGES (import) required:
 3. json
 4. re
 5. os
+Make sure you pip install all the above packages (some of them are pre-installed).
 
 How To Run:
 1. Download LeadParser directory containing 'Data', 'Main', 'Output' & 'Test' directories.
