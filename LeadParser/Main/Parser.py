@@ -60,10 +60,14 @@ def get_address(soup):
 
 #Checks the sub head returns true if Lead type is Seller
 def is_seller(soup):
+      sub_head = []
 	for font_tags in soup.find_all('font'):
 		for font_tags_text in font_tags.contents:
 			if 'interested' in font_tags_text:
 				sub_head = font_tags_text
+                              break
+                               
+
 	
 	#List to store all comparison checks of keywords in sub-head
 	sell_check = []
